@@ -1,0 +1,350 @@
+.card{
+    width: 100%;
+    height: 950px;
+    font-family: "Jost", sans-serif;
+    transition: all 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4); 
+  transform: translateY(-10px); 
+  border-color: transparent;
+}
+
+.card .upper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between; /* bar left/center, icon right */
+  padding: 0 20px; /* thoda spacing for breathing room */
+}
+
+.card .upper .horizontal-bar {
+  width: 219px;
+  height: 9px;
+  background-color: #DFDFDF;
+  margin: 10px auto; /* auto margin ko hata bhi sakte ho */
+}
+
+.card .upper i {
+  font-size: 22px;
+  color: #121212;
+  cursor: pointer;
+}
+
+.card .lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card .lower .left{
+    margin-left: 30px;
+}
+.card .lower .right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* ############################################################################# */
+.card .lower .right .first-line{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card .lower .right .first-line .left p:first-child{
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    color: #121212;
+    
+}
+.card .lower .right .first-line .right{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* ############################################################################# */
+.second-line{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.second-line p{
+    margin: 0;
+    margin-left: 30px;
+    color: #929292;
+    font-size: 22px ;
+    font-weight: 500;
+    line-height: 100%;
+}
+.second-line p span {
+    color: #B600D1;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* ############################################################################# */
+.third-line .likes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third-line .likes .center i:first-child{
+    margin-left: 30px;
+}
+.third-line .likes .center {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+.third-line .likes .center p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #4A4949;
+}
+.fa-eye{
+    cursor: pointer;
+}
+.fa-heart {
+    color: #4A4949; 
+    transition: color 0.3s ease;
+}
+.fa-heart:hover{
+    cursor: pointer;
+    color: red; 
+}
+/* ############################################################################# */
+.fourth-line{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fourth-line p{
+    margin: 0;
+    margin-left: 30px;
+    width: 100%;
+    color: #929292;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+/* ############################################################################# */
+.fifth-line .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+}
+
+.fifth-line .left p{
+    color: #929292;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+/* ############################################################################# */
+.six-line{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.six-line .left .abc{
+    margin-right: 80px;
+}
+.six-line .left{
+    display: flex;
+    gap: 10px;
+}
+.six-line .left .abc{
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #121212;
+}
+/* ############################################################################# */
+.seven-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seven-line .left {
+    display: flex;
+    display: start;
+    align-items: center;
+    gap: 20px;
+}
+.seven-line .left p {
+    margin: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #B600D1; 
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #fff; 
+  transition: all 0.3s ease;
+}
+
+.seven-line .left p:hover {
+  background: linear-gradient(45deg, #2636D9, #B600D1);
+  color: #fff;
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.seven-line .right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.seven-line .right2 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500 ;
+    color: #6F6F6F;
+}
+.seven-line .right2 i:last-child{
+    margin-right: 20px;
+}
+.seven-line .right2 i{
+    cursor: pointer;
+}
+/* ############################################################################# */
+.eight-line{
+    margin-top: -30px;
+}
+.eight-line p{
+    margin-left: 30px;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 500 ;
+    color: #6F6F6F;
+}
+/* ############################################################################# */
+.nine-line{
+    margin-left: 30px;
+    display: flex;
+    gap: 30px;
+}
+.nine-line p {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #121212;
+}
+/* ############################################################################# */
+.ten-line{
+    display: flex;
+    justify-content: flex-start;
+}
+.ten-line p{ 
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #929292;
+}
+/* ############################################################################# */
+.eleven-line{
+    display: flex;
+    justify-content: space-between;
+}
+.eleven-line .left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.eleven-line .left p{
+    margin: 0;
+}
+.eleven-line .left p:first-child{
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #121212;
+}
+.eleven-line .left p:last-child{
+    color: #6F6F6F;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.eleven-line .right p{
+    margin: 0;
+}
+.eleven-line .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eleven-line .right span{
+    color: #121212;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.eleven-line .right p{
+    margin-right: 20px;
+    color: #6F6F6F;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* ############################################################################# */
+.twelve-line{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+}
+.twelve-line input{
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+.twelve-line label{
+    display: flex;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #929292;
+}
+
+
+/* ############################################################################# */
+.btn1 {
+    margin-top: 10px;
+  margin-left: 30px;
+  width: 270px;  
+  height: 53px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #2636D9, #B600D1);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* text bilkul center me */
+}
+
+/* Hover effect */
+.btn1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  background: linear-gradient(90deg, #B600D1, #2636D9);
+}
+
+
