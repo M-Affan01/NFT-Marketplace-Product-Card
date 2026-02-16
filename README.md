@@ -1,4 +1,4 @@
-# 🛒 NFT Marketplace Product Card
+# NFT Marketplace Product Card
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -10,7 +10,7 @@
 ![Files](https://img.shields.io/badge/Files-8-purple?style=for-the-badge)
 ![Dependencies](https://img.shields.io/badge/Dependencies-3-orange?style=for-the-badge)
 
-## 📋 Project Overview
+## Project Overview
 
 **Project Name:** NFT Marketplace Product Card  
 **Short Description:** A complete, interactive product display card for NFT marketplaces featuring detailed asset information, social interactions, and purchase functionality with modern animations and hover effects.  
@@ -18,9 +18,9 @@
 
 **Professional Context:** This component replicates the product cards used by leading NFT platforms like OpenSea, Rarible, and Foundation, providing users with essential information, social proof, and seamless purchase capabilities in a single, visually cohesive interface. It's designed for integration into Web3 marketplaces, digital asset platforms, and crypto-commerce applications.
 
-## ✨ Main Features
+## Main Features
 
-### 🎨 **Visual & Interactive Features**
+### **Visual & Interactive Features**
 - **Animated Card Design** with elevation and shadow transitions on hover
 - **Social Media Integration** with platform-specific colored icons (Instagram, Twitter, Facebook)
 - **Real-time Engagement Metrics** displaying views and favorites with animated icons
@@ -29,7 +29,7 @@
 - **Interactive Navigation Tabs** (Details, Bids, History) with gradient hover effects
 - **Complete Purchase Flow** including terms agreement checkbox and Buy Now button
 
-### 🛠️ **Technical Features**
+### **Technical Features**
 - **External Resource Integration** (Google Fonts, Font Awesome icons)
 - **CSS Animations** using Font Awesome's beat and fade animation classes
 - **Responsive Flexbox Layout** with two-column design and proper spacing
@@ -37,14 +37,14 @@
 - **Gradient Effects** on buttons and interactive elements
 - **Cross-browser Compatibility** tested on modern browsers
 
-### 📊 **User Experience Features**
+### **User Experience Features**
 - **Hover Feedback** on all interactive elements
 - **Color-coded Social Icons** for instant platform recognition
 - **Visual Hierarchy** through typography sizing and color differentiation
 - **Smooth Transitions** (0.3s ease) for all state changes
 - **Clear Information Architecture** with 12 distinct content sections
 
-## 💻 Technical Stack & Tools
+## Technical Stack & Tools
 
 ### **Core Technologies**
 - **HTML5** - Semantic markup, document structure, external resource linking
@@ -71,7 +71,7 @@
 - `object-fit: cover` for image handling
 - `:hover` pseudo-class for interactive states
 
-## 🏗️ Architecture/Design Summary
+## Architecture/Design Summary
 
 ### **Component Architecture**
 The product card follows a modular, two-column layout architecture:
@@ -124,7 +124,7 @@ The product card follows a modular, two-column layout architecture:
 - **Social Colors**: #c10ba9 (Instagram), #083687 (Twitter), #141ad7 (Facebook)
 - **Background**: #DFDFDF (bar), white (card)
 
-## 🚀 Installation & Running
+## Installation & Running
 
 ### **Prerequisites**
 - Modern web browser (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)
@@ -169,16 +169,16 @@ xdg-open index.html  # Linux
 
 ### **Verification Steps**
 After installation, verify the following:
-1. ✅ All 8 files exist in the same directory
-2. ✅ `index.html` properly links to `style.css` (line 7)
-3. ✅ All 5 image files are accessible
-4. ✅ Internet connection is available for external resources
-5. ✅ Browser opens without console errors
-6. ✅ Card displays with all 12 sections visible
-7. ✅ Hover effects work on interactive elements
-8. ✅ Animations are smooth and responsive
+1. All 8 files exist in the same directory
+2. `index.html` properly links to `style.css` (line 7)
+3. All 5 image files are accessible
+4. Internet connection is available for external resources
+5. Browser opens without console errors
+6. Card displays with all 12 sections visible
+7. Hover effects work on interactive elements
+8. Animations are smooth and responsive
 
-## 📖 Usage Instructions
+## Usage Instructions
 
 ### **Basic Interaction Guide**
 
@@ -308,13 +308,13 @@ For mobile compatibility, add to `style.css`:
 }
 ```
 
-## 📁 Project Structure Tree
+## Project Structure Tree
 
 ### **Complete File Structure**
 ```
 BUY CARD/                              # Project root directory
 │
-├── 📄 index.html                      # Main HTML document (162 lines)
+├── index.html                      # Main HTML document (162 lines)
 │   ├── <head> section (lines 1-24)
 │   │   ├── Meta declarations (charset, viewport)
 │   │   ├── Page title: "Buy Card"
@@ -354,7 +354,7 @@ BUY CARD/                              # Project root directory
 │       │
 │       └── Closing tags
 │
-├── 📄 style.css                       # Complete styling (280+ lines)
+├── style.css                       # Complete styling (280+ lines)
 │   ├── Global card styles (.card) (lines 1-10)
 │   ├── Upper section styles (.upper) (lines 11-27)
 │   ├── Lower section layout (.lower) (lines 28-38)
@@ -372,11 +372,11 @@ BUY CARD/                              # Project root directory
 │   ├── Twelve line styles (.twelve-line) (lines 219-231)
 │   └── Button styles (.btn1) (lines 232-254)
 │
-├── 🖼️ left_pic.png                    # Primary product image
-├── 🖼️ 1.png                           # Creator 1 profile image (Monica Lucas)
-├── 🖼️ 2.png                           # Creator 2 profile image (DevilMonkey)
-├── 🖼️ 3.png                           # Current owner profile image (Stacy Long)
-└── 🖼️ tick.png                        # Verification badge icon
+├── left_pic.png                    # Primary product image
+├── 1.png                           # Creator 1 profile image (Monica Lucas)
+├── 2.png                           # Creator 2 profile image (DevilMonkey)
+├── 3.png                           # Current owner profile image (Stacy Long)
+└── tick.png                        # Verification badge icon
 ```
 
 ### **File Dependencies Map**
@@ -400,7 +400,7 @@ All image files
 └── No dependencies
 ```
 
-## 🔧 Development Setup
+## Development Setup
 
 ### **Development Environment Requirements**
 - **Text Editor**: VS Code, Sublime Text, Atom, or any code editor
@@ -457,7 +457,7 @@ Standard Development Process:
    - Animation frame rates
    - Resource loading efficiency
 
-## 📊 Performance & Optimization
+## Performance & Optimization
 
 ### **Current Performance Characteristics**
 - **Load Time**: < 500ms (depending on image sizes and network)
@@ -522,7 +522,7 @@ Use browser DevTools to monitor:
 3. **Lighthouse Audit**: Run performance, accessibility, best practices checks
 4. **Memory Tab**: Monitor memory usage during interactions
 
-## 🤝 Contributing Guidelines
+## Contributing Guidelines
 
 ### **Contribution Workflow**
 1. **Fork the repository** (if hosted on GitHub)
@@ -593,7 +593,7 @@ All contributions must include:
 3. **Accessibility testing** (screen reader, keyboard navigation)
 4. **Performance testing** (Lighthouse scores maintained or improved)
 
-## 📝 License
+## License
 
 ### **MIT License**
 ```
@@ -627,12 +627,12 @@ SOFTWARE.
 - **Icons**: Ensure `tick.png` is either created by you or properly licensed
 
 ### **Usage Rights**
-- ✅ Commercial use allowed
-- ✅ Modification allowed
-- ✅ Distribution allowed
-- ✅ Private use allowed
-- ✅ Sublicensing allowed
-- ✅ No warranty provided
+- Commercial use allowed
+- Modification allowed
+- Distribution allowed
+- Private use allowed
+- Sublicensing allowed
+- No warranty provided
 
 ### **Attribution**
 While not required, attribution is appreciated:
@@ -641,7 +641,7 @@ NFT Marketplace Product Card Component
 https://github.com/yourusername/nft-product-card
 ```
 
-## 🔮 Future Plans
+## Future Plans
 
 ### **Short-term Roadmap (Next 3 Months)**
 1. **Responsive Design Implementation**
@@ -702,13 +702,13 @@ https://github.com/yourusername/nft-product-card
    - Community Discord/forum
 
 ### **No Planned Changes**
-- ❌ Backend server implementation
-- ❌ Database integration
-- ❌ Complex business logic
-- ❌ Payment processing integration
-- ❌ User account management
+- Backend server implementation
+- Database integration
+- Complex business logic
+- Payment processing integration
+- User account management
 
-## 🔗 Live Demo
+## Live Demo
 
 **Demo Status**: Local deployment required
 
@@ -734,7 +734,7 @@ https://github.com/yourusername/nft-product-card
 4. Access at: https://username.github.io/repository-name/
 ```
 
-## 📞 Contact Information
+## Contact Information
 
 ### **Project Maintainer**
 **Name**: Muhammad Affan  
@@ -769,7 +769,7 @@ Available for:
 
 <div align="center">
 
-## **🚀 Quick Start Summary**
+## **Quick Start Summary**
 
 ```bash
 # Minimum viable setup:
@@ -779,6 +779,5 @@ Available for:
 4. Experience interactive NFT card
 ```
 **Built with**: HTML5, CSS3, Font Awesome, Google Fonts  
-**Features**: 12 information sections, hover animations, social integration, purchase flow  
 
 </div>
